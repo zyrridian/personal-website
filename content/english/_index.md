@@ -1,51 +1,53 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Turning Ideas into Reality"
+  content: "ZkyLab is... just a name. It's not a company, nor a startup. It's simply a name. No deep meaning. No fancy backstory. Yet, we somehow build mobile apps, games, tech blogs, overly long blogs about absolutely nothing, random stuff nobody asked for, and, well, other things we can’t even explain. Don’t ask why. Just roll with it."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Discover What We Do"
+    link: "https://github.com/zyrridian"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Mobile App Development"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "ZkyLab’s main focus is mobile app development. We create tailored, high-performance apps that deliver seamless experiences and grow with your business. Here's what we offer:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "High performance **Native** Android Apps."
+      - "Cross-Platform Apps that can be run on both **Android** and **iOS**."
+      - "Cloud Integration for secure data management with **Firebase**."
+      - "Modern Design with intuitive and visually appealing interfaces."
+      - "Scalable Solutions that grow with your business."
+      - "Reliable & Tested apps for top performance across devices."
+      - "Ongoing Support to assist even after launch."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Explore Our Mobile App Projects"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Take a closer look at our expertise in mobile app development. From innovative designs to seamless functionality, our projects showcase the quality and versatility of our work. Below are some examples of the apps we’ve developed:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Movie List App**: Stay updated with the latest movie and TV series recommendations."
+      - "**Mentalys**: A comprehensive tool for mental well-being, including voice analysis, expert consultation, and resources."
+      - "**Beyond Words**: An app that translates hand signs into text, bridging communication gaps."
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "View More"
+      link: "https://github.com/zyrridian"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "Content Creation & Articles"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "At ZkyLab, we believe in the art of storytelling and the impact of well-crafted content. Whether it’s creating informative articles, thought-provoking stories, or engaging blog posts, we specialize in delivering content that connects with readers. Here’s what we offer:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "**Engaging Articles** on a wide range of topics, from lifestyle to technology."
+      - "**Creative Storytelling** for projects, blogs, or personal narratives."
+      - "**In-depth Research** to bring value to readers through well-researched content."
+      - "**Editorial Services** to refine and polish your content, making it ready for publication."
+      - "**SEO-Optimized Content** to improve visibility and engagement."
     button:
       enable: false
       label: ""
