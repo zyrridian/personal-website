@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Discover What We Do"
-    link: "https://github.com/zyrridian"
+    link: "/projects"
 
 # Features
 features:
@@ -49,7 +49,7 @@ features:
       - "**Editorial Services** to refine and polish your content, making it ready for publication."
       - "**SEO-Optimized Content** to improve visibility and engagement."
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Read Our Articles"
+      link: "/blog"
 ---
