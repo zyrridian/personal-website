@@ -26,7 +26,7 @@ main {
 
 // social icons
 .social-icons {
-  @apply space-x-4;
+  @apply flex flex-wrap justify-center gap-4; // space-x-4;
   li {
     @apply inline-block;
     a {

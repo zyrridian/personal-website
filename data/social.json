@@ -1,14 +1,9 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/zyrridian"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/zyrridian"
+      "name": "link",
+      "icon": "fab fa-link",
+      "link": "https://linktr.ee/rezkyaditiafauzan"
     },
     {
       "name": "github",
@@ -24,6 +19,16 @@
       "name": "linkedin",
       "icon": "fab fa-linkedin",
       "link": "https://www.linkedin.com/rezkyaditiafauzan"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/zyrridian"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/zyrridian"
     }
   ]
 }
