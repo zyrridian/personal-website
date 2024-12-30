@@ -5,19 +5,6 @@ description: "This is meta description"
 draft: false
 ---
 
-### Movie List App
-
-This is a movie list app built in Kotlin. It fetches data from the TMDB API and displays it in the app. There are two categories: Movies and TV Series. Both categories include sections for currently playing, upcoming, and popular titles. When you click on a movie or TV series, it shows detailed information such as the title, release date, backdrops, cast, trailer, and more. You can easily search for movies using the search bar. Additionally, there is a movie news section you can browse.
-
-{{< button label="GitHub Project" link="https://github.com/zyrridian/tmdb-movie-list-app" style="solid" >}}
-
-<br>
-<br>
-
-{{< gallery dir="images/projects/movie-app" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
 ### Mentalys App
 
 Mentalys stands for Mental Analysis. It was the capstone project for my team in the Bangkit Academy 2024 Batch 2 program. We collaborated with the Cloud Computing and Machine Learning teams to build this app. My role was Android development. The app’s main feature is mental health analysis, which includes three methods: a questionnaire, voice tone analysis, and handwriting pattern recognition. Users receive insights about their mental health results and AI-powered recommendations via the Gemini AI API.
@@ -85,29 +72,20 @@ This is a simple app that displays static book data, which does not update dynam
 
 <hr>
 
-### School App
+### Resilience
 
-This app was my high school final assignment project. It uses Firebase as its database and displays school-related data such as student and teacher information, clubs, galleries, schedules, and more.
+This is a 2D RPG adventure game with a pixel art style. The story educates players about disaster resilience, focusing on earthquakes. The game includes combat mechanics with monsters and bosses, multiple maps, and immersive storytelling. It was developed in pure Java, and my contributions included coding, composing background music, and involvement in tileset creation and scripting. This project was submitted for the ITFest Paramadina 2024 Game Design Competition, where our three-member team won 4th place.
 
-{{< button label="GitHub Project" link="https://github.com/zyrridian/school-app" style="solid" >}}
+{{< button label="GitHub Project" link="zyrridian.itch.io/resilience" style="solid" >}}
 
-<br>
-<br>
-
-{{< gallery dir="images/projects/school-app" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Restaurant Management System
-
-This is a Restaurant Management System built using VB.NET and SQL Server as the database. It features two user roles: admin and cashier. The system can manage menus, members, orders, and employees. It also provides statistical reports for business insights.
-
-{{< button label="GitHub Project" link="https://github.com/zyrridian/restaurant-management-app" style="solid" >}}
+{{< button label="GitHub Project" link="https://github.com/zyrridian/resilience" style="solid" >}}
 
 <br>
 <br>
 
-{{< gallery dir="images/projects/restaurant" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/projects/resilience" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+
+{{< youtube WPElYRrUW-I >}}
 
 <hr>
 
@@ -128,17 +106,39 @@ This is a 2D RPG adventure game with a pixel art style. The story educates playe
 
 <hr>
 
-### Resilience
+### Movie List App
 
-This is a 2D RPG adventure game with a pixel art style. The story educates players about disaster resilience, focusing on earthquakes. The game includes combat mechanics with monsters and bosses, multiple maps, and immersive storytelling. It was developed in pure Java, and my contributions included coding, composing background music, and involvement in tileset creation and scripting. This project was submitted for the ITFest Paramadina 2024 Game Design Competition, where our three-member team won 4th place.
+This is a movie list app built in Kotlin. It fetches data from the TMDB API and displays it in the app. There are two categories: Movies and TV Series. Both categories include sections for currently playing, upcoming, and popular titles. When you click on a movie or TV series, it shows detailed information such as the title, release date, backdrops, cast, trailer, and more. You can easily search for movies using the search bar. Additionally, there is a movie news section you can browse.
 
-{{< button label="GitHub Project" link="zyrridian.itch.io/resilience" style="solid" >}}
-
-{{< button label="GitHub Project" link="https://github.com/zyrridian/resilience" style="solid" >}}
+{{< button label="GitHub Project" link="https://github.com/zyrridian/tmdb-movie-list-app" style="solid" >}}
 
 <br>
 <br>
 
-{{< gallery dir="images/projects/resilience" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/projects/movie-app" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
-{{< youtube WPElYRrUW-I >}}
+<hr>
+
+### Restaurant Management System
+
+This is a Restaurant Management System built using VB.NET and SQL Server as the database. It features two user roles: admin and cashier. The system can manage menus, members, orders, and employees. It also provides statistical reports for business insights.
+
+{{< button label="GitHub Project" link="https://github.com/zyrridian/restaurant-management-app" style="solid" >}}
+
+<br>
+<br>
+
+{{< gallery dir="images/projects/restaurant" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+
+<hr>
+
+### School App
+
+This app was my high school final assignment project. It uses Firebase as its database and displays school-related data such as student and teacher information, clubs, galleries, schedules, and more.
+
+{{< button label="GitHub Project" link="https://github.com/zyrridian/school-app" style="solid" >}}
+
+<br>
+<br>
+
+{{< gallery dir="images/projects/school-app" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
