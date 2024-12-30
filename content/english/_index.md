@@ -37,7 +37,7 @@ features:
     button:
       enable: true
       label: "View More"
-      link: "https://github.com/zyrridian"
+      link: "/projects"
 
   - title: "Content Creation & Articles"
     image: "/images/service-3.png"
