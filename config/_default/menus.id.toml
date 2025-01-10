@@ -1,0 +1,38 @@
+############# Navigasi Bahasa Indonesia ##############
+
+# menu utama
+[[main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Proyek"
+url = "/projects"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 3
+
+[[main]]
+name = "Tentang"
+url = "/about"
+weight = 4
+
+# menu footer
+[[footer]]
+name = "Tentang"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Kontak"
+url = "/contact"
+weight = 2
+
+[[footer]]
+name = "Kebijakan Privasi"
+url = "/privacy-policy"
+weight = 3

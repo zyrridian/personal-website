@@ -1,6 +1,13 @@
-################ English language ##################
+################ English Language ##################
 [en]
-languageName = "En"
+languageName = "English"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+
+################ Indonesian Language ##################
+[id]
+languageName = "Bahasa Indonesia"
+languageCode = "id-id"
+contentDir = "content/indonesian"
+weight = 2
