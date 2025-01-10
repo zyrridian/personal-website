@@ -6,6 +6,22 @@ body {
   @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
 }
 
+/* Set a fixed width for the dropdown */
+select {
+  width: 82px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Optional: Styling for options */
+select option {
+  white-space: nowrap;
+  /* Prevent wrapping in the option text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 h1,
 h2,
 h3,
@@ -54,6 +70,6 @@ code {
   @apply after:border-none;
 }
 
-blockquote > p {
+blockquote>p {
   @apply my-0 #{!important};
 }
