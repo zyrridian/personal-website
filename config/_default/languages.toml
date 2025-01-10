@@ -7,7 +7,7 @@ weight = 1
 
 ################ Indonesian Language ##################
 [id]
-languageName = "Bahasa Indonesia"
+languageName = "Indonesia"
 languageCode = "id-id"
 contentDir = "content/indonesian"
 weight = 2
