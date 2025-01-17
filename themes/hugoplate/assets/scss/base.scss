@@ -6,13 +6,20 @@ body {
   @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
 }
 
-/* Set a fixed width for the dropdown */
+/* Default: No fixed width for larger screens */
 select {
-  width: 82px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
+/* Mobile: Apply fixed width */
+@media (max-width: 768px) {
+  select {
+    width: 82px;
+  }
+}
+
 
 /* Optional: Styling for options */
 select option {

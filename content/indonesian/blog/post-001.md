@@ -3,7 +3,7 @@ title: "Ilusi Ketenangan"
 meta_title: "Mengeksplorasi Gerakan dan Ketenangan"
 description: "Temukan mengapa ketenangan sejati tidak mungkin tercapai di alam semesta yang selalu bergerak."
 date: 2024-12-30T00:00:00Z
-image: "images/blog/blog-01.webp"
+image: "images/blog/blog-001.webp"
 categories: ["Sains", "Fisika", "Filsafat"]
 author: "zyrridian"
 tags: ["gerakan", "alam semesta", "ketenangan"]

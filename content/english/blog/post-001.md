@@ -3,7 +3,7 @@ title: "The Illusion of Stillness"
 meta_title: "Exploring Motion and Stillness"
 description: "Discover why true stillness is impossible in a constantly moving universe."
 date: 2024-12-30T00:00:00Z
-image: "images/blog/blog-01.webp"
+image: "images/blog/blog-001.webp"
 categories: ["Science", "Physics", "Philosophy"]
 author: "zyrridian"
 tags: ["motion", "universe", "stillness"]
