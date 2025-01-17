@@ -10,18 +10,6 @@ tags: ["Gerakan", "Alam Semesta", "Stationary"]
 draft: false
 ---
 
-**title**: "The Illusion of Stillness"  
-**meta_title**: "Exploring Motion and Stillness"  
-**description**: "Discover why true stillness is impossible in a constantly moving universe."  
-**date**: 2024-12-30T00:00:00Z  
-**image**: "images/blog/blog-001.webp"  
-**categories**: ["Ilmu Pengetahuan", "Fisika", "Filsafat"]  
-**author**: "zyrridian"  
-**tags**: ["motion", "universe", "stillness"]  
-**draft**: false  
-
----
-
 Pernahkah Anda bertanya-tanya apakah mungkin untuk benar-benar diam? Pada pandangan pertama, ini mungkin terdengar seperti pertanyaan sederhana, tetapi kenyataannya jauh lebih rumit. **Keadaan stasioner**, dalam arti sesungguhnya, adalah keadaan yang tidak bisa dicapai. Mari kita lihat mengapa ini terjadi.
 
 ### Gerakan Bumi yang Tak Pernah Berhenti
