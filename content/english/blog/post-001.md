@@ -1,16 +1,16 @@
 ---
-title: "The Illusion of Stillness"
-meta_title: "Exploring Motion and Stillness"
-description: "Discover why true stillness is impossible in a constantly moving universe."
+title: "The Illusion of Stationary"
+meta_title: "Exploring Motion and Stationary"
+description: "Discover why true stationary is impossible in a constantly moving universe."
 date: 2024-12-30T00:00:00Z
 image: "images/blog/blog-001.webp"
 categories: ["Science", "Physics", "Philosophy"]
 author: "zyrridian"
-tags: ["motion", "universe", "stillness"]
+tags: ["Motion", "Universe", "Stationary"]
 draft: false
 ---
 
-Have you ever wondered if it’s possible to stand completely still? At first glance, it might seem like a straightforward question, but the reality is far more complex. Absolute stillness, in the truest sense, is an unattainable state. Let's dive into the reasons why.
+Have you ever wondered if it’s possible to stand completely still? At first glance, it might seem like a straightforward question, but the reality is far more complex. **Stationary state**, in the truest sense, is a state that cannot be achieved. Let's see why this happens.
 
 ## The Constant Motion of Earth
 

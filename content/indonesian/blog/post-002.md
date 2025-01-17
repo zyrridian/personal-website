@@ -6,7 +6,7 @@ date: 2025-01-17T00:00:00Z
 image: "images/blog/blog-002.webp"
 categories: ["Science", "Cosmology", "Philosophy"]
 author: "zyrridian"
-tags: ["darkmatter", "quantum", "blackholes"]
+tags: ["Dark Matter", "Quantum", "Blackhole"]
 draft: false
 ---
 
