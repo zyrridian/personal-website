@@ -10,7 +10,9 @@ tags: ["Bocchi the Rock", "Kessoku Band"]
 draft: false
 ---
 
-After what feels like an eternity of anticipation, **Kessoku Band** has finally dropped their newest single, _Hikari no Naka e_ (_Into the Light_). This song isn't just melodies; it's experiences wrapped in poetic ambiguity. For someone who has been following this journey since the anime aired, this song feels deeply personal, as if it's a continuation of Bocchi's story.
+After what feels like an eternity of anticipation, **Kessoku Band** has finally dropped their newest single, _Hikari no Naka e_ (_Into the Light_). This song is a captivating blend of melodies wrapped in poetic ambiguity. For someone who has been following this journey since the anime aired, this song feels deeply personal. It's a continuation of Bocchi's story.
+
+The song has an upbeat and refreshing theme that instantly lifts your mood. Its melody is vibrant and energetic, perfectly suited as an anthem of renewal. It’s a clear departure from the anxious and introspective tones of Kessoku Band’s previous songs from Bocchi the Rock. This track feels like a celebration—a shining moment of the band’s growth and the light at the end of a long, winding journey. It’s as if they’ve stepped out of the shadows and into a bright, new chapter.
 
 I've always loved the music of the Kessoku Band, but this time, something about the lyrics - particularly the equations - stirred my curiosity. It's not every day that a song blends music and math in such a metaphorical way. I couldn't resist diving into it. So here I am, sharing my thoughts and interpretations of this brilliant song.
 
@@ -18,29 +20,51 @@ I've always loved the music of the Kessoku Band, but this time, something about 
 
 {{< image src="images/blog/blog-003/img2.webp" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
-Hikari no Naka e is written by _Fujimori Genki_, the lyrics reveal the side of Bocchi's and how she grew up from being a socially anxious introvert into a confident eccentric performer. What caught my attention were the mathematical equations in the song which, actually, sounded more like a metaphors of Bocchi's state of mind and connection with music. It was just like each of equations reflected her internal struggle and growth.
+Hikari no Naka e is written by _Fujimori Genki_, the lyrics reveal the side of Bocchi's and how she grew up from being a socially anxious introvert into a confident eccentric performer. What caught my attention were the mathematical equations in the song which, actually, sounded more like a metaphors of Bocchi's state of mind and connection with music. Each of equations reflected her internal struggle and growth.
 
 Take, for instance, the first equation:
 
 ### (Me + Expectations - Anxiety) × Guitar = Rock
 
-It seems pretty simple at first glance. Bocchi's expectations of herself, minus her ever-present anxiety, multiplied by her guitar, result in the raw energy of rock. The equation feels like a perfect encapsulation of her performances: chaotic, intense, and undeniably authentic. Her music becomes an outlet where the tension between her self-doubt and her aspirations transforms into something beautiful.
-
-<!-- {{< image src="images/blog/blog-003/img3.gif" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}} -->
+It seems pretty simple. Bocchi's expectations of herself, minus her ever-present anxiety, multiplied by her guitar, result in the raw energy of rock. The equation is the perfect encapsulation of her performances: chaotic, intense, and undeniably authentic. Her music becomes an outlet where the tension between her self-doubt and her aspirations transforms into something beautiful.
 
 As I explored further, I found myself trying to make sense of the other equations:
 
 ### (Me + You - Time) ÷ Guitar = A Concert
 
-This one was more abstract until it clicked. It's not just about playing music - it's about the shared experience of a live performance. Bocchi and her bandmates come together, overcoming the constraints of time, to create something ephemeral and magical. The division by guitar suggests that their connection - their synergy - is mediated through their instruments.
+This one was more abstract until it clicked. It's about the shared experience of a live performance. Bocchi and her bandmates come together, overcoming the constraints of time, to create something ephemeral and magical. The division by guitar suggests that their connection - their synergy - is mediated through their instruments.
 
 ### (Me + Society - Mutual Understanding) × Sympathy = A Strikeout
 
-This was the most tricky to interpret. To me, it represents Bocchi's struggle to navigate a world that often feels alienating. When there's no mutual understanding, even sympathy can't bridge the gap, leaving her feeling like she's failed. But this equation isn't just about despair - it's a reminder of her resilience. Each "strikeout" pushes her to grow, to find new ways to connect.
+This was the most tricky to interpret. To me, it represents Bocchi's struggle to navigate a world that often feels alienating. When there's no mutual understanding, even sympathy can't bridge the gap and then leaving her feeling like she's failed. But this equation isn't just about despair - it's a reminder of her resilience. Each "strikeout" pushes her to grow, to find new ways to connect.
 
 ### Me + You is bias, Sound ÷ Eternal Wheel = A Band
 
 This final equation is poetic in its simplicity. The "Me + You" bias reflects the unique dynamics between Bocchi and her bandmates, shaped by their shared experiences and quirks. And "Sound ÷ Eternal Wheel"? To me, it's the essence of Kessoku Band - their music, looping endlessly in our hearts, becomes a symbol of their unity and purpose.
+
+### Analyzing Bocchi's Equations
+
+{{< image src="images/blog/blog-003/img3.gif" caption="" alt="alter-text" height="" width="" position="left" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
+
+I'm starting to think that the equations in the lyrics are just Bocchi trying desperately to solve math problems to pass an exam while simultaneously writing lyrics. It's such a bocchi thing to do. But anyway let's analyze this equations and and see what we can make of it!
+
+1. **Friends = Me ÷ Band** <br>
+This equation is interesting because it flips the usual perspective. Rather than adding her friends to the band, Bocchi divides herself by it. Perhaps it suggests that, in her mind, she feels like a fraction of herself when not in the band or with her friends. The multiplication with her friends (Band = Bocchi × friends) suggests that the group is the thing that completes her, or the band and her friends help her become whole.
+
+2. **Reality = (Me - Anxiety + Expectations) × Guitar** <br>
+Here, it’s clear that Bocchi sees her identity as being partially defined by the guitar, but not without a little adjustment. Anxiety is subtracted (showing how she wishes to reduce it), while expectations are added—perhaps reflecting her desire to meet others’ or her own goals. The final multiplication by Guitar is key; it’s her core way of expressing herself and confronting the world, despite these pressures. The "Reality" part could be interpreted as the sum of all those influences shaping her real self.
+
+3. **Society = 0** <br>
+This is actually pretty funny. Bocchi is essentially saying society doesn't hold weight for her, or she feels disconnected from it. This equation shows her sense of isolation, or the belief that societal norms or expectations are irrelevant to her personal world.
+
+4. **Time = Me + You - (Live × Band)** <br>
+The absence of the band and the live music aspect creates a sense of emptiness. Bocchi might be suggesting that, without the band and its music, there’s no significant movement in time for her—just the ticking clock with "Me" and "You" in it. It shows how important Kessoku Band and music are to her sense of existence.
+
+5. **Understanding = Me - Out** <br>
+This equation seems like a reflection of mental exhaustion. "Out" could refer to her mental state, possibly sleep deprivation, and "Me" is what’s left when her mind is drained. The equation expresses a diminished sense of understanding due to external pressures or internal struggles.
+
+6. **You = (Band × Friends - Me) / Society** <br>
+The undefined nature of "You" reflects how Bocchi perceives herself in relation to the band and society. With society equaling zero, it implies that without her, the band wouldn't function as it does. It's a dramatic way of showing her importance, but also perhaps a subtle reflection of her insecurities about being replaceable. The "undefined" nature might also represent her feeling of not fully knowing where she stands or being disconnected from her own identity.
 
 ## Context and Connections
 
@@ -50,13 +74,13 @@ These equations resonated with a story I read about someone reflecting on how th
 
 What makes these equations even more fascinating is their possible link to other songs by Kessoku Band. _Ai Higuchi_, who wrote many of their lyrics, often weaves interconnected themes across tracks. For example, _Blue Spring and Western Sky_ is tied to _If I Could Be a Constellation_, creating a narrative thread. Could _Into the Light_ be part of this tapestry? It's a question that lingers, much like the song itself.
 
-As I delved deeper into the lyrics, I recalled an insightful discussion I came across. Someone had shared their thoughts on the arithmetic operations in the song, attempting to decode the meanings behind addition, subtraction, multiplication, and division. It struck me how these equations, despite their abstractness, perfectly encapsulate Bocchi's journey. Addition symbolizes connection, subtraction reflects loss or struggle, multiplication amplifies emotions, and division seeks balance or perspective.
+As I delved deeper into the lyrics, I recalled an insightful discussion I came across. Someone had shared their thoughts on the arithmetic operations in the song. They were attempting to decode the meanings behind addition, subtraction, multiplication, and division. It struck me how these equations, despite their abstractness, perfectly encapsulate Bocchi's journey. Addition symbolizes connection, subtraction reflects loss or struggle, multiplication amplifies emotions, and division seeks balance or perspective.
 
 ## Bocchi's Light: Stepping Into Her Own
 
 {{< image src="images/blog/blog-003/img5.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
-One of the most poignant moments in the song is when Bocchi steps into the "light" with a newfound sense of confidence. This light isn't just a metaphor for success; it's the spotlight she's earned through her hard work and determination. It's a testament to her growth, both as a musician and as a person. The song's chorus captures this beautifully:
+One of the most poignant moments in the song is when Bocchi steps into the "light" with a newfound sense of confidence. This light is the spotlight she's earned through her hard work and determination. It's a testament to her growth, both as a musician and as a person. The song's chorus captures this beautifully:
 
 > The sound I truly love / Resonates in my heart / Even the light, once blinding / Now feels warm.
 
@@ -66,9 +90,9 @@ Here, the "light" becomes a symbol of acceptance. Bocchi is no longer paralyzed 
 
 {{< image src="images/blog/blog-003/img6.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
-As I listened to Hikari no Naka e on repeat, I realized that this song isn't just about Bocchi - it's about all of us who have struggled with self-doubt, insecurity, and a sense of not fitting in. The song serves as a powerful reminder that even in our darkest times, there's a light waiting for us. It's a light that we can step into when we're ready, a light that symbolizes our journey toward confidence, connection, and self-acceptance.
+As I listened to _Hikari no Naka e_ on repeat, I realized that this song isn't just about Bocchi - it's about all of us who have struggled with self-doubt, insecurity, and a sense of not fitting in. The song serves as a powerful reminder that even in our darkest times, there's a light waiting for us. It's a light that we can step into when we're ready, a light that symbolizes our journey toward confidence, connection, and self-acceptance.
 
-In the end, Into the Light is more than just a song; it's an invitation to confront our fears and step into our own light, just like Bocchi. It's a message that no matter how complex or chaotic life may seem, there's always a way forward - a way that leads us toward the warmth and acceptance we all seek.
+In the end, Into the Light is an invitation to confront our fears and step into our own light, just like Bocchi. It's a message that no matter how complex or chaotic life may seem, there's always a way forward - a way that leads us toward the warmth and acceptance we all seek.
 
 <hr>
 
