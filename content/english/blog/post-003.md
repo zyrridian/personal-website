@@ -46,7 +46,7 @@ This final equation is poetic in its simplicity. The "Me + You" bias reflects th
 
 {{< image src="images/blog/blog-003/img3.gif" caption="" alt="alter-text" height="" width="" position="left" command="fill" option="q100" class="img-fluid" title="image title"  webp="true" >}}
 
-I'm starting to think that the equations in the lyrics are just Bocchi trying desperately to solve math problems to pass an exam while simultaneously writing lyrics. It's such a Bocchi thing to do. But anyway let's analyze this equations and and see what we can make of it!
+I'm starting to think that the equations in the lyrics are just Bocchi trying desperately to solve math problems to pass an exam while simultaneously writing lyrics. It's such a Bocchi thing to do. But anyway let's analyze this equations and see what we can make of it!
 
 1. **Friends = Me ÷ Band** <br>
 This equation is interesting because it flips the usual perspective. Rather than adding her friends to the band, Bocchi divides herself by it. Perhaps it suggests that, in her mind, she feels like a fraction of herself when not in the band or with her friends. The multiplication with her friends (Band = Bocchi × friends) suggests that the group is the thing that completes her, or the band and her friends help her become whole.
