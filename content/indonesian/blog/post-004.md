@@ -271,7 +271,7 @@ Berikut kode XML terbaru untuk file `activity_main.xml`. Tambahkan bagian grid t
 
 Kita juga mengatur `columnCount` ke 4 dan `rowCount` ke 5, membuat grid yang dapat menampung 20 tombol (4 kolom × 5 baris). Padding sebesar **8dp** memastikan tombol terpisah secara merata dan enak dipandang.  
 
-## Menambahkan Tombol ke Grid  
+### Menambahkan Tombol ke Grid  
 
 Di dalam `GridLayout`, kita menambahkan baris pertama tombol: Clear (C), Backspace (⌫), Persen (%), dan Bagi (÷). Tombol ini menggunakan komponen `MaterialButton` yang menyediakan desain modern dan konsisten. Setiap tombol diberi gaya menggunakan style **`CalculatorButtonOperation`** yang telah kita definisikan sebelumnya.  
 
