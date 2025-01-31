@@ -682,7 +682,7 @@ When you run the app, it will work! Congratulations! However, there are some iss
 
 We can fix this by creating a responsive layout for specific screen sizes, but that would take time and make the codelab too complicated! 
 
-{{< image src="images/blog/blog-004/img07.gif" caption="" alt="alter-text" height="" width="" position="left" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
+{{< image src="images/blog/blog-004/img07.gif" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 Because of that, let's implement a simple trick instead. We will prevent our app from rotating into landscape mode, so it will always remain in portrait orientation. To do this, go to the **`AndroidManifest.xml`** file and modify the `<activity>` tag by adding the `android:screenOrientation="portrait"` attribute.
 

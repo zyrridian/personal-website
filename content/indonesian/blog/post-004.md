@@ -683,7 +683,7 @@ Saat Anda menjalankan aplikasi, aplikasi akan berfungsi! Selamat! Namun, ada beb
 
 Kita bisa memperbaikinya dengan membuat tata letak responsif untuk ukuran layar tertentu, tetapi itu akan memakan waktu dan membuat codelab ini terlalu rumit!
 
-{{< image src="images/blog/blog-004/img07.gif" caption="" alt="alter-text" height="" width="" position="left" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
+{{< image src="images/blog/blog-004/img07.gif" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 Karena itu, mari terapkan trik sederhana. Kita akan mencegah aplikasi kita berotasi ke mode landscape, sehingga aplikasi akan selalu tetap dalam orientasi portrait. Untuk melakukan ini, buka file **`AndroidManifest.xml`** dan modifikasi tag `<activity>` dengan menambahkan atribut `android:screenOrientation="portrait"`.
 
