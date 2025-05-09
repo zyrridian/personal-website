@@ -1,7 +1,7 @@
 ---
-title: "Building a Flutter Recipe App: Part 1 - Home Screen"
-meta_title: "Build a Flutter Recipe App"
-description: "Learn how to build a beautiful and functional recipe app using Flutter. This step-by-step tutorial covers UI design, recipe listing, and interactive features."
+title: "Membangun Aplikasi Resep Flutter: Bagian 1 - Layar Utama"
+meta_title: "Membangun Aplikasi Resep Flutter"
+description: "Pelajari cara membangun aplikasi resep yang indah dan fungsional menggunakan Flutter. Tutorial langkah demi langkah ini mencakup desain UI, daftar resep, dan fitur interaktif."
 date: 2025-01-31T00:00:00Z
 image: "images/blog/blog-005/img.png"
 categories: ["Tutorial", "Flutter", "Mobile Development"]
@@ -10,17 +10,17 @@ tags: ["Flutter", "Dart", "Recipe App", "Mobile Development"]
 draft: false
 ---
 
-In this three-part tutorial series, we'll build a beautiful, modern recipe app called "Flavor Fusion" using Flutter. This app will feature a clean design with a home screen displaying recipe categories and popular recipes, detailed recipe pages, and a user profile screen.
+Dalam seri tutorial ini, kita akan membangun aplikasi resep modern yang bernama "Flavor Fusion" menggunakan Flutter. Aplikasi ini akan menampilkan desain yang bersih dengan layar utama yang menampilkan kategori resep dan resep populer, halaman detail resep, dan layar profil pengguna.
 
-By the end of this first article, we'll have created a functional home screen with a custom app bar, category cards, and recipe listings. Let's get started!
+Di akhir artikel pertama ini, kita akan membuat layar utama yang fungsional dengan app bar kustom, kartu kategori, dan daftar resep. Mari kita mulai!
 
-## Setting Up the Project
+## Menyiapkan Proyek
 
-First, let's create a new Flutter project and set up our main app structure. We'll start by configuring our app theme, creating our data models, and setting up navigation.
+Pertama, mari kita buat proyek Flutter baru dan menyiapkan struktur aplikasi utama. Kita akan mulai dengan mengkonfigurasi tema aplikasi, membuat model data, dan menyiapkan navigasi.
 
-### Main App Configuration
+### Konfigurasi Aplikasi Utama
 
-Let's begin with our main.dart file to set up the app theme and initial home screen:
+Mari kita mulai dengan file main.dart untuk menyiapkan tema aplikasi dan layar utama awal:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -53,20 +53,20 @@ class MainApp extends StatelessWidget {
 }
 ```
 
-Here we're configuring our app with:
-- A green primary color (#5C9F42)
-- Poppins as our font family
-- Material 3 design system
-- No debug banner
-- HomeScreen as our starting point
+Di sini kita mengkonfigurasi aplikasi dengan:
+- Warna primer hijau (#5C9F42)
+- Poppins sebagai font keluarga
+- Sistem desain Material 3
+- Tanpa banner debug
+- HomeScreen sebagai titik awal
 
 {{< image src="images/blog/blog-005/img1.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-### Creating Placeholder Screens
+### Membuat Layar Sementara
 
-Before we create the HomeScreen, we need to create placeholder screens for our recipe list and profile screens to avoid compilation errors. Let's create these files:
+Sebelum kita membuat HomeScreen, kita perlu membuat layar sementara untuk daftar resep dan layar profil untuk menghindari error kompilasi. Mari buat file-file ini:
 
-First, create `lib/presentation/list/recipe_list_screen.dart`:
+Pertama, buat `lib/presentation/list/recipe_list_screen.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -78,14 +78,14 @@ class RecipeListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Recipe List Screen - Coming Soon'),
+        child: Text('Layar Daftar Resep - Segera Hadir'),
       ),
     );
   }
 }
 ```
 
-Then, create `lib/presentation/profile/profile_screen.dart`:
+Kemudian, buat `lib/presentation/profile/profile_screen.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -97,18 +97,18 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Profile Screen - Coming Soon'),
+        child: Text('Layar Profil - Segera Hadir'),
       ),
     );
   }
 }
 ```
 
-These are simple placeholder screens that we'll build out in detail in Parts 2 and 3 of this tutorial. For now, they just display a centered text message.
+Ini adalah layar sementara sederhana yang akan kita kembangkan secara detail di Bagian 2 dan 3 dari tutorial ini. Untuk saat ini, mereka hanya menampilkan pesan teks di tengah.
 
-### Creating the Home Screen
+### Membuat Layar Utama
 
-Now that we have our placeholder screens, let's create our HomeScreen which will handle navigation between our recipe list and profile screens:
+Sekarang setelah kita memiliki layar sementara, mari buat HomeScreen yang akan menangani navigasi antara layar daftar resep dan profil:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -141,11 +141,11 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.restaurant_menu),
-            label: 'Recipes',
+            label: 'Resep',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: 'Profil',
           ),
         ],
       ),
@@ -154,16 +154,16 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 ```
 
-This creates:
-- A stateful widget to track which tab is selected
-- A bottom navigation bar with two options (Recipes and Profile)
-- Logic to switch between screens based on the selected tab
+Ini membuat:
+- Widget stateful untuk melacak tab mana yang dipilih
+- Bottom navigation bar dengan dua opsi (Resep dan Profil)
+- Logika untuk beralih antara layar berdasarkan tab yang dipilih
 
 {{< image src="images/blog/blog-005/img2.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-### Setting Up Data Models
+### Menyiapkan Model Data
 
-Before we dive into the recipe list screen, let's create our Recipe model and some dummy data:
+Sebelum kita masuk ke layar daftar resep, mari buat model Recipe dan beberapa data dummy:
 
 ```dart
 // lib/data/recipe.dart
@@ -190,7 +190,7 @@ class Recipe {
 }
 ```
 
-Now, let's populate some dummy data for our recipes:
+Sekarang, mari isi beberapa data dummy untuk resep kita:
 
 ```dart
 // lib/data/dummy.dart
@@ -198,41 +198,41 @@ import 'package:recipe_app/data/recipe.dart';
 
 final List<Recipe> recipes = [
   Recipe(
-    name: "Avocado Toast with Poached Eggs",
+    name: "Avocado Toast dengan Telur Rebus",
     chef: "Emma Wilson",
     imageUrl: "assets/images/avocado_toast.jpg",
-    cookTime: "15 min",
-    difficulty: "Easy",
+    cookTime: "15 menit",
+    difficulty: "Mudah",
     rating: 4.8,
     ingredients: [
-      "2 slices whole grain bread",
-      "1 ripe avocado",
-      "2 eggs",
-      "Cherry tomatoes",
-      "Red pepper flakes",
-      "Salt and pepper to taste",
-      "Fresh lime juice",
+      "2 potong roti gandum",
+      "1 alpukat matang",
+      "2 telur",
+      "Tomat ceri",
+      "Bubuk cabai merah",
+      "Garam dan merica secukupnya",
+      "Jus jeruk nipis segar",
     ],
     steps: [
-      "Toast the bread until golden and crispy.",
-      "Mash the avocado and spread on toast.",
-      "Poach the eggs in simmering water for 3 minutes.",
-      "Top toast with eggs, sliced tomatoes, and seasonings.",
+      "Panggang roti hingga keemasan dan renyah.",
+      "Hancurkan alpukat dan oleskan di atas roti.",
+      "Rebus telur dalam air mendidih selama 3 menit.",
+      "Tambahkan telur, irisan tomat, dan bumbu di atas roti.",
     ],
   ),
-  // More recipes...
+  // Resep lainnya...
 ];
 ```
 
-With our data models in place, we can now focus on building our recipe list screen.
+Dengan model data kita di tempat, kita sekarang dapat fokus pada membangun layar daftar resep.
 
-## Building the Recipe List Screen
+## Membangun Layar Daftar Resep
 
-Now, let's build our main recipe list screen. We'll create it step by step:
+Sekarang, mari kita bangun layar daftar resep utama. Kita akan membuatnya langkah demi langkah:
 
-### Creating the SliverAppBar
+### Membuat SliverAppBar
 
-We'll start by creating a custom app bar using SliverAppBar for a more dynamic scrolling experience:
+Kita akan mulai dengan membuat app bar kustom menggunakan SliverAppBar untuk pengalaman scrolling yang lebih dinamis:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -275,7 +275,7 @@ class RecipeListScreen extends StatelessWidget {
               ),
             ],
           ),
-          // We'll add more slivers here later
+          // Kita akan menambahkan lebih banyak sliver di sini nanti
         ],
       ),
     );
@@ -283,24 +283,24 @@ class RecipeListScreen extends StatelessWidget {
 }
 ```
 
-The SliverAppBar gives us:
-- A nice expandable header with our app name
-- Search and favorites icons
-- Smooth scrolling behavior where the header collapses as you scroll down
+SliverAppBar memberi kita:
+- Header yang dapat diperluas dengan nama aplikasi
+- Ikon pencarian dan favorit
+- Perilaku scrolling yang halus di mana header menciut saat Anda scroll ke bawah
 
 {{< image src="images/blog/blog-005/img3.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-### Adding Category Section
+### Menambahkan Bagian Kategori
 
-Next, let's add a horizontal scrolling category section:
+Selanjutnya, mari tambahkan bagian kategori dengan scrolling horizontal:
 
 ```dart
-// Add these slivers after the SliverAppBar
+// Tambahkan sliver ini setelah SliverAppBar
 SliverToBoxAdapter(
   child: Padding(
     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
     child: Text(
-      'Categories',
+      'Kategori',
       style: TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.bold,
@@ -315,18 +315,18 @@ SliverToBoxAdapter(
       padding: EdgeInsets.symmetric(horizontal: 8),
       scrollDirection: Axis.horizontal,
       children: [
-        _buildCategoryCard('Breakfast', 'assets/images/breakfast.jpg', context),
-        _buildCategoryCard('Lunch', 'assets/images/lunch.jpg', context),
-        _buildCategoryCard('Dinner', 'assets/images/dinner.jpg', context),
-        _buildCategoryCard('Desserts', 'assets/images/desserts.jpg', context),
-        _buildCategoryCard('Smoothies', 'assets/images/smoothies.jpg', context),
+        _buildCategoryCard('Sarapan', 'assets/images/breakfast.jpg', context),
+        _buildCategoryCard('Makan Siang', 'assets/images/lunch.jpg', context),
+        _buildCategoryCard('Makan Malam', 'assets/images/dinner.jpg', context),
+        _buildCategoryCard('Makanan Penutup', 'assets/images/desserts.jpg', context),
+        _buildCategoryCard('Smoothie', 'assets/images/smoothies.jpg', context),
       ],
     ),
   ),
 ),
 ```
 
-And implement the _buildCategoryCard method in the same class after Widget build() block:
+Dan implementasikan metode _buildCategoryCard di kelas yang sama setelah blok Widget build():
 
 ```dart
 Widget _buildCategoryCard(
@@ -384,15 +384,15 @@ Widget _buildCategoryCard(
 
 IconData _getCategoryIcon(String category) {
   switch (category) {
-    case 'Breakfast':
+    case 'Sarapan':
       return Icons.free_breakfast;
-    case 'Lunch':
+    case 'Makan Siang':
       return Icons.lunch_dining;
-    case 'Dinner':
+    case 'Makan Malam':
       return Icons.dinner_dining;
-    case 'Desserts':
+    case 'Makanan Penutup':
       return Icons.cake;
-    case 'Smoothies':
+    case 'Smoothie':
       return Icons.local_drink;
     default:
       return Icons.restaurant;
@@ -400,19 +400,19 @@ IconData _getCategoryIcon(String category) {
 }
 ```
 
-This creates:
-- A horizontally scrollable list of category cards
-- Each card has a circular icon and label
-- Appropriate icons for each food category
+Ini membuat:
+- Daftar kartu kategori yang dapat di-scroll secara horizontal
+- Setiap kartu memiliki ikon lingkaran dan label
+- Ikon yang sesuai untuk setiap kategori makanan
 
 {{< image src="images/blog/blog-005/img4.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-### Creating the Popular Recipes Section
+### Membuat Bagian Resep Populer
 
-Now let's add a header for our popular recipes section:
+Sekarang mari tambahkan header untuk bagian resep populer:
 
 ```dart
-// Add after the categories section
+// Tambahkan setelah bagian kategori
 SliverToBoxAdapter(
   child: Padding(
     padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
@@ -420,7 +420,7 @@ SliverToBoxAdapter(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
-          'Popular Recipes',
+          'Resep Populer',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
@@ -428,7 +428,7 @@ SliverToBoxAdapter(
         ),
         TextButton(
           onPressed: () {},
-          child: Text('View All'),
+          child: Text('Lihat Semua'),
         ),
       ],
     ),
@@ -438,9 +438,9 @@ SliverToBoxAdapter(
 
 {{< image src="images/blog/blog-005/img5.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-### Creating the Recipe Card Widget
+### Membuat Widget Kartu Resep
 
-Before we can display recipes in our list, we need to create a reusable RecipeCard widget. Create a new file at `lib/presentation/list/components/recipe_card.dart`:
+Sebelum kita dapat menampilkan resep dalam daftar kita, kita perlu membuat widget RecipeCard yang dapat digunakan kembali. Buat file baru di `lib/presentation/list/components/recipe_card.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -585,17 +585,17 @@ class RecipeCard extends StatelessWidget {
 }
 ```
 
-This creates a beautiful card layout for each recipe with:
-- A placeholder for the recipe image
-- Rating badge in the top right corner
-- Recipe name and chef info
-- Cook time and difficulty level chips
+Ini membuat tata letak kartu yang indah untuk setiap resep dengan:
+- Tempat untuk gambar resep
+- Badge rating di pojok kanan atas
+- Nama resep dan info chef
+- Chip waktu memasak dan tingkat kesulitan
 
-Now we can use this RecipeCard widget in our RecipeListScreen.
+Sekarang kita dapat menggunakan widget RecipeCard ini di RecipeListScreen kita.
 
-### Updating the Recipe List Screen
+### Memperbarui Layar Daftar Resep
 
-Now that we have our RecipeCard component, let's update our RecipeListScreen to use it. Update the `lib/presentation/list/recipe_list_screen.dart` file:
+Sekarang setelah kita memiliki komponen RecipeCard, mari perbarui RecipeListScreen kita untuk menggunakannya. Perbarui file `lib/presentation/list/recipe_list_screen.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -643,7 +643,7 @@ class RecipeListScreen extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Text(
-                'Categories',
+                'Kategori',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -659,15 +659,15 @@ class RecipeListScreen extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 children: [
                   _buildCategoryCard(
-                      'Breakfast', 'assets/images/breakfast.jpg', context),
+                      'Sarapan', 'assets/images/breakfast.jpg', context),
                   _buildCategoryCard(
-                      'Lunch', 'assets/images/lunch.jpg', context),
+                      'Makan Siang', 'assets/images/lunch.jpg', context),
                   _buildCategoryCard(
-                      'Dinner', 'assets/images/dinner.jpg', context),
+                      'Makan Malam', 'assets/images/dinner.jpg', context),
                   _buildCategoryCard(
-                      'Desserts', 'assets/images/desserts.jpg', context),
+                      'Makanan Penutup', 'assets/images/desserts.jpg', context),
                   _buildCategoryCard(
-                      'Smoothies', 'assets/images/smoothies.jpg', context),
+                      'Smoothie', 'assets/images/smoothies.jpg', context),
                 ],
               ),
             ),
@@ -679,7 +679,7 @@ class RecipeListScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Popular Recipes',
+                    'Resep Populer',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -687,7 +687,7 @@ class RecipeListScreen extends StatelessWidget {
                   ),
                   TextButton(
                     onPressed: () {},
-                    child: Text('View All'),
+                    child: Text('Lihat Semua'),
                   ),
                 ],
               ),
@@ -766,15 +766,15 @@ class RecipeListScreen extends StatelessWidget {
 
   IconData _getCategoryIcon(String category) {
     switch (category) {
-      case 'Breakfast':
+      case 'Sarapan':
         return Icons.free_breakfast;
-      case 'Lunch':
+      case 'Makan Siang':
         return Icons.lunch_dining;
-      case 'Dinner':
+      case 'Makan Malam':
         return Icons.dinner_dining;
-      case 'Desserts':
+      case 'Makanan Penutup':
         return Icons.cake;
-      case 'Smoothies':
+      case 'Smoothie':
         return Icons.local_drink;
       default:
         return Icons.restaurant;
@@ -783,89 +783,87 @@ class RecipeListScreen extends StatelessWidget {
 }
 ```
 
+## Menjalankan Aplikasi
+
+Dengan semua komponen ini di tempat, kita sekarang dapat menjalankan aplikasi kita dan melihat layar utama yang indah dalam aksi. Anda akan melihat layar dengan:
+
+1. App bar yang dapat menciut dengan nama aplikasi dan ikon aksi
+2. Daftar kategori makanan yang dapat di-scroll secara horizontal
+3. Bagian "Resep Populer" yang menampilkan kartu resep
+4. Tombol floating action untuk menambahkan resep baru
+5. Bottom navigation bar untuk beralih antara layar
+
 {{< image src="images/blog/blog-005/img6.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-## Running the App
+## Menambahkan Lebih Banyak Resep
 
-With all these components in place, we can now run our app and see the beautiful home screen in action. You should see a screen with:
-
-1. A collapsible app bar with our app name and action icons
-2. A horizontal scrolling list of food categories
-3. A "Popular Recipes" section showing recipe cards
-4. A floating action button for adding new recipes
-5. A bottom navigation bar to switch between screens
-
-[Image: Full app screenshot showing the complete home screen]
-
-## Adding More Recipes
-
-Now that your app is running, you can add more recipes to the dummy data. Open `lib/data/dummy.dart` and add more recipes to the `recipes` list. Here's an example of how to add another recipe:
+Sekarang setelah aplikasi Anda berjalan, Anda dapat menambahkan lebih banyak resep ke data dummy. Buka `lib/data/dummy.dart` dan tambahkan lebih banyak resep ke daftar `recipes`. Berikut contoh cara menambahkan resep lain:
 
 ```dart
-// Add this to the recipes list in lib/data/dummy.dart
+// Tambahkan ini ke daftar recipes di lib/data/dummy.dart
 Recipe(
   name: "Chicken Tikka Masala",
   chef: "Sarah Patel",
   imageUrl: "assets/images/chicken_tikka.jpg",
-  cookTime: "45 min",
-  difficulty: "Medium",
+  cookTime: "45 menit",
+  difficulty: "Sedang",
   rating: 4.7,
   ingredients: [
-    "2 lbs chicken breast",
-    "1 cup yogurt",
-    "2 tbsp garam masala",
-    "1 onion, diced",
-    "3 cloves garlic",
-    "1 can tomato sauce",
-    "1 cup heavy cream",
-    "Fresh cilantro",
-    "Salt and pepper to taste",
+    "2 pon dada ayam",
+    "1 cangkir yogurt",
+    "2 sdm garam masala",
+    "1 bawang bombay, potong dadu",
+    "3 siung bawang putih",
+    "1 kaleng saus tomat",
+    "1 cangkir krim kental",
+    "Ketumbar segar",
+    "Garam dan merica secukupnya",
   ],
   steps: [
-    "Marinate chicken in yogurt and spices for 2 hours.",
-    "Grill chicken until charred and cooked through.",
-    "Sauté onions and garlic until soft.",
-    "Add tomato sauce and simmer for 10 minutes.",
-    "Add cream and cooked chicken, simmer for 5 minutes.",
-    "Garnish with fresh cilantro and serve with rice.",
+    "Marinasi ayam dalam yogurt dan bumbu selama 2 jam.",
+    "Panggang ayam hingga hangus dan matang.",
+    "Tumis bawang bombay dan bawang putih hingga lunak.",
+    "Tambahkan saus tomat dan didihkan selama 10 menit.",
+    "Tambahkan krim dan ayam yang sudah dimasak, didihkan selama 5 menit.",
+    "Hias dengan ketumbar segar dan sajikan dengan nasi.",
   ],
 ),
 ```
 
-You can add as many recipes as you want following this pattern. Each recipe should include:
-- A descriptive name
-- Chef's name
-- Image URL (for now, we're using placeholders)
-- Cook time
-- Difficulty level
+Anda dapat menambahkan sebanyak mungkin resep yang Anda inginkan mengikuti pola ini. Setiap resep harus mencakup:
+- Nama yang deskriptif
+- Nama chef
+- URL gambar (untuk saat ini, kita menggunakan placeholder)
+- Waktu memasak
+- Tingkat kesulitan
 - Rating
-- List of ingredients
-- Step-by-step instructions
+- Daftar bahan
+- Instruksi langkah demi langkah
 
-The recipes will automatically appear in your app's list view. Try adding a few more recipes to see how they look!
+Resep akan otomatis muncul di tampilan daftar aplikasi Anda. Coba tambahkan beberapa resep lagi untuk melihat tampilannya!
 
 {{< image src="images/blog/blog-005/img7.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
-## Conclusion
+## Kesimpulan
 
-In this first part of our tutorial series, we've created the foundation of our recipe app, including:
+Dalam bagian pertama dari seri tutorial kita ini, kita telah membuat fondasi aplikasi resep kita, termasuk:
 
-- Setting up the app theme and structure
-- Creating our data models
-- Building a home screen with navigation
-- Implementing a dynamic recipe list screen with SliverAppBar
-- Creating custom category cards and recipe cards
+- Menyiapkan tema dan struktur aplikasi
+- Membuat model data kita
+- Membangun layar utama dengan navigasi
+- Mengimplementasikan layar daftar resep dinamis dengan SliverAppBar
+- Membuat kartu kategori dan kartu resep kustom
 
-In the next part, we'll focus on building the recipe detail screen where users can view full recipes with ingredients and steps.
+Di bagian selanjutnya, kita akan fokus pada membangun layar detail resep di mana pengguna dapat melihat resep lengkap dengan bahan dan langkah-langkahnya.
 
-Stay tuned for Part 2!
+Tunggu bagian 2!
 
-## What's Next
+## Apa Selanjutnya
 
-In Part 2, we'll create:
-- A detailed recipe view with image, description, and metadata
-- An ingredients list with custom styling
-- Step-by-step cooking instructions
-- Action buttons for saving and sharing recipes
+Di Bagian 2, kita akan membuat:
+- Tampilan detail resep dengan gambar, deskripsi, dan metadata
+- Daftar bahan dengan gaya kustom
+- Instruksi memasak langkah demi langkah
+- Tombol aksi untuk menyimpan dan berbagi resep
 
-Happy coding!
+Selamat coding! 
