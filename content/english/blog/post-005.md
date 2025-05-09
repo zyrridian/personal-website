@@ -60,7 +60,7 @@ Here we're configuring our app with:
 - No debug banner
 - HomeScreen as our starting point
 
-[Image: Main app with green theme showing HomeScreen structure]
+{{< image src="images/blog/blog-005/img1.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ### Creating Placeholder Screens
 
@@ -159,7 +159,7 @@ This creates:
 - A bottom navigation bar with two options (Recipes and Profile)
 - Logic to switch between screens based on the selected tab
 
-[Image: Screen showing bottom navigation bar with two tabs - Recipes and Profile]
+{{< image src="images/blog/blog-005/img2.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ### Setting Up Data Models
 
@@ -288,7 +288,7 @@ The SliverAppBar gives us:
 - Search and favorites icons
 - Smooth scrolling behavior where the header collapses as you scroll down
 
-[Image: Expanded SliverAppBar with "Flavor Fusion" title and two action icons]
+{{< image src="images/blog/blog-003/img1.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ### Adding Category Section
 
@@ -405,7 +405,7 @@ This creates:
 - Each card has a circular icon and label
 - Appropriate icons for each food category
 
-[Image: Horizontal scroll view showing category cards with icons for Breakfast, Lunch, Dinner, etc.]
+{{< image src="images/blog/blog-005/img4.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ### Creating the Popular Recipes Section
 
@@ -436,7 +436,7 @@ SliverToBoxAdapter(
 ),
 ```
 
-[Image: "Popular Recipes" header with "View All" button]
+{{< image src="images/blog/blog-005/img5.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ### Creating the Recipe Card Widget
 
@@ -783,7 +783,7 @@ class RecipeListScreen extends StatelessWidget {
 }
 ```
 
-[Image: Full RecipeListScreen showing all elements together]
+{{< image src="images/blog/blog-005/img6.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ## Running the App
 
@@ -843,6 +843,8 @@ You can add as many recipes as you want following this pattern. Each recipe shou
 - Step-by-step instructions
 
 The recipes will automatically appear in your app's list view. Try adding a few more recipes to see how they look!
+
+{{< image src="images/blog/blog-005/img7.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title" webp="false" >}}
 
 ## Conclusion
 
